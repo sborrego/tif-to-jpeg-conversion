@@ -9,5 +9,5 @@ The files we are interested in are .tif and thus need to be coverted to JPEG
 
 #### ImageMagick to save the day
 
-Description: http://www.imagemagick.org/script/index.php
+Description: http://www.imagemagick.org/script/index.php <br>
 Command Line option: https://imagemagick.org/script/command-line-tools.php
