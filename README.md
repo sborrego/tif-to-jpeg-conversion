@@ -15,3 +15,7 @@ Command Line option: https://imagemagick.org/script/command-line-tools.php
 ##### Issues with Workstation
 
 Here is the fix (Case II): https://gist.github.com/ipbastola/2760cfc28be62a5ee10036851c654600
+
+##### Successful installion of ImageMagick
+
+https://linuxconfig.org/how-to-install-imagemagick-7-on-ubuntu-18-04-linux
