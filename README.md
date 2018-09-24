@@ -11,3 +11,7 @@ The files we are interested in are .tif and thus need to be coverted to JPEG
 
 Description: http://www.imagemagick.org/script/index.php <br>
 Command Line option: https://imagemagick.org/script/command-line-tools.php
+
+##### Issues with Workstation
+
+Here is the fix: https://gist.github.com/ipbastola/2760cfc28be62a5ee10036851c654600
