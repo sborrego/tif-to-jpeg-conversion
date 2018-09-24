@@ -14,4 +14,4 @@ Command Line option: https://imagemagick.org/script/command-line-tools.php
 
 ##### Issues with Workstation
 
-Here is the fix: https://gist.github.com/ipbastola/2760cfc28be62a5ee10036851c654600
+Here is the fix (Case II): https://gist.github.com/ipbastola/2760cfc28be62a5ee10036851c654600
