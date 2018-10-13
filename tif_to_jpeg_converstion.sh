@@ -2,7 +2,7 @@
 
 set -eoux pipefail
 
-PRJT_DIR=/home/stacey/hd2/image_conversion_project/
+PRJT_DIR=/home/stacey/hd2/image_conversion_project
 TIF_DIR=${PRJT_DIR}/images
 
 JPG_DIR=${PRJT_DIR}/images_jpg
