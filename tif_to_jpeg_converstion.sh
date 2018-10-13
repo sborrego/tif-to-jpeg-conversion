@@ -9,4 +9,18 @@ JPG_DIR=${PRJT_DIR}/images_jpg
 
 mkdir -p ${JPG_DIR}
 
-find ${TIF_DIR}/Romero\ Family/Drew\ and\ Viv\ with\ kids.tif -name *.tif -type f -print0 | xargs -0 -I {} cp -r '{}' ${JPG_DIR}/
+find ${TIF_DIR}/ -name "*.tif" | while read fname; do 
+	echo "$fname"
+	JPG_NAME=${fname%%.*}.jpg
+	FILE=`echo "$JPG_NAME" | rev | cut -d'/' -f-2 | rev`
+	JPG_FILE=${JPG_DIR}/${FILE}
+	echo $JPG_FILE
+	IMG_DIR=`dirname "$JPG_FILE"`
+
+	mkdir -p "$IMG_DIR"
+
+	convert "$fname" "$JPG_FILE"
+done
+
+echo `find $TIF_DIR -type f | wc -l`
+echo `find $JPG_DIR -type f | wc -l`
