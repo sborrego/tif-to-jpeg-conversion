@@ -9,7 +9,7 @@ JPG_DIR=${PRJT_DIR}/images_jpg
 
 mkdir -p ${JPG_DIR}
 
-find ${TIF_DIR}/Misc\ Family/ -name "*.tif" | while read fname; do 
+find ${TIF_DIR}/ -name "*.tif" | while read fname; do 
 echo "$fname"
 JPG_NAME=${fname%%.*}.jpg
 FILE=`echo "$JPG_NAME" | cut -d'/' -f7- `
